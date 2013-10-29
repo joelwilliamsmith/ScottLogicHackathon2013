@@ -25,7 +25,7 @@ public class TestImplementation {
 		
 		GameOutput output = game.getResult();
 		
-		System.out.println("Total funds made: £" + output.getTotalFunds());
+		System.out.println("Total funds made: Â£" + output.getTotalFunds());
 		System.out.println("Detailed daily output:");
 		for (DailyOutput out : output.getDailyOutputs()) {
 			System.out.println(out);
